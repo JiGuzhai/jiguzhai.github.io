@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文章列表 - 稽古斋主人</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* 文章列表特定样式 */
+        .articles-list {
+            padding: 80px 0;
+            background-color: #f9f6f0;
+        }
+        
+        .articles-list .container {
+            max-width: 900px;
+        }
+        
+        .article-item {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+        
+        .article-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .article-item h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #2c3e50;
+            font-weight: 600;
+        }
+        
+        .article-meta-info {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 15px;
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+        
+        .article-summary {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <!-- 顶部导航栏 -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>稽古斋主人</h1>
+                <p>儒家思想践行者</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html#home">首页</a></li>
+                    <li><a href="index.html#articles">文章</a></li>
+                    <li><a href="index.html#about">关于</a></li>
+                    <li><a href="index.html#contact">联系</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 文章列表内容 -->
+    <main>
+        <section class="articles-list">
+            <div class="container">
+                <h2 class="section-title">稽古斋主人文章列表</h2>
+                
+                <!-- 文章1 -->
+                <article class="article-item">
+                    <h3>《论语》中的"仁"与现代社会的道德建设</h3>
+                    <div class="article-meta-info">
+                        <span><i class="far fa-calendar-alt"></i> 2023年10月15日</span>
+                        <span><i class="far fa-folder"></i> 儒家思想研究</span>
+                        <span><i class="far fa-eye"></i> 阅读次数</span>
+                    </div>
+                    <p class="article-summary">本文探讨《论语》中"仁"的概念，并分析其在现代社会道德建设中的应用与价值。通过对孔子"仁"学思想的深入解读，结合当代社会的道德困境，提出传统儒家智慧的现代转化路径...</p>
+                    <a href="articles/W1.html" class="article-link">阅读全文 <i class="fas fa-arrow-right"></i></a>
+                </article>
+                
+                <!-- 文章2 -->
+                <article class="article-item">
+                    <h3>此处填标题</h3>
+                    <div class="article-meta-info">
+                        <span><i class="far fa-calendar-alt"></i> 此处填日期</span>
+                        <span><i class="far fa-folder"></i> 此处填分类</span>
+                        <span><i class="far fa-eye"></i> 阅读次数</span>
+                    </div>
+                    <p class="article-summary">此处为简介</p>
+                    <a href="articles/W2.html" class="article-link">阅读全文 <i class="fas fa-arrow-right"></i></a>
+                </article>
+                
+                <!-- 文章3 -->
+                <article class="article-item">
+                    <h3>此处填标题</h3>
+                    <div class="article-meta-info">
+                        <span><i class="far fa-calendar-alt"></i> 此处填日期</span>
+                        <span><i class="far fa-folder"></i> 此处填分类</span>
+                        <span><i class="far fa-eye"></i> 阅读次数</span>
+                    </div>
+                    <p class="article-summary">此处为简介</p>
+                    <a href="articles/W3.html" class="article-link">阅读全文 <i class="fas fa-arrow-right"></i></a>
+                </article>
+                
+                <!-- 分页 -->
+                <div class="pagination">
+                    <a href="#" class="pagination-item prev">上一页</a>
+                    <a href="#" class="pagination-item active">1</a>
+                    <a href="#" class="pagination-item">2</a>
+                    <a href="#" class="pagination-item">3</a>
+                    <span class="pagination-ellipsis">...</span>
+                    <a href="#" class="pagination-item">n</a>
+                    <a href="#" class="pagination-item next">下一页</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 稽古斋主人 - 儒家思想论集. 保留所有权利。</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
