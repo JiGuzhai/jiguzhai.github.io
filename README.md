@@ -9,12 +9,9 @@
 ├── README.md               # 项目说明文档
 ├── index.html              # 网站首页
 ├── articles/               # 文章目录
-│   ├── W1.html             # 文章1
-│   └── W2.html             # 文章2（待添加）
 ├── articles_list.html      # 文章列表页
 ├── style.css               # 样式表文件
 └── script.js               # JavaScript文件
-```
 
 ## 页面功能说明
 
@@ -68,7 +65,5 @@
 ## 联系我们
 
 如有任何问题或建议，欢迎联系：
-- 邮箱：jiguzhai@qq.com
 - GitHub: https://github.com
 
-- 微信公众号: 尊孔尊经斯文在兹
